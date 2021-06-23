@@ -1,12 +1,12 @@
 {
   "required": true,
-  "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
-  "compatibilityLevel": "JAVA_16",
+  "minVersion": "0.7",
+  "package": "fabmod.mixin",
+  "compatibilityLevel": "JAVA_11",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "XMixin"
   ],
   "injectors": {
     "defaultRequire": 1
