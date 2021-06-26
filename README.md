@@ -6,9 +6,9 @@ After cloning this repo, on commandline run:
 
  * gradlew --refresh-dependencies genSources downloadAssets
  
-To run minecraft with this mod from commandline:
+To run minecraft with this mod and some helpful extra ones in extra_mods/ from commandline:
 
- * gradlew runClient  
+ * gradlew runWithMods  
  
 For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) 
 that relates to the IDE that you are using. e.g. for Eclipse, this will generate the necessary project IDE configs:
