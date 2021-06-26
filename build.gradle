@@ -83,3 +83,24 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+def copyExtraMods = tasks.register('copyExtraMods') {
+    copy {
+        from "$projectDir/extra_mods"
+        into "$projectDir/run/mods"
+        include "*.jar"
+    }
+}
+
+def runWithMods = tasks.register('runWithMods') {
+}
+
+copyExtraMods.configure {
+    group "xfab"
+}
+
+runWithMods.configure {
+    group "xfab"
+    dependsOn copyExtraMods
+    dependsOn runClient
+}
