@@ -19,7 +19,7 @@ public class XMod implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier("fabmod", "x_item"), X_ITEM);
         CommandRegistrationCallback.EVENT.register((dispatcher, dedicated) -> {
         	dispatcher.register(CommandManager.literal("X").executes(context -> { 
-        		System.out.println("Do X Magic!");
+        		System.out.println("Do X Magic! XXXX....");
         		return 1;
         	}));
         });
