@@ -1,7 +1,5 @@
 package fabmod;
 
-import com.mojang.brigadier.context.CommandContext;
-
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
